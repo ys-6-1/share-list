@@ -36,7 +36,7 @@ SECRET_KEY = "../.env"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["https://share-list-prod.herokuapp.com", "127.0.0.1:8000", "localhost"]
+ALLOWED_HOSTS = ["https://share-list-app.herokuapp.com/", "127.0.0.1:8000", "localhost"]
 
 # Application definition
 
