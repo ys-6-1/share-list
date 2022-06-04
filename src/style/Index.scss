@@ -1,0 +1,15 @@
+@import "@fontsource/roboto/300.css";
+@import "@fontsource/roboto/400.css";
+@import "@fontsource/roboto/500.css";
+@import "@fontsource/roboto/700.css";
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@500&family=Righteous&family=Lobster&family=Secular+One&display=swap");
+
+body,
+html {
+  margin: 0;
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
