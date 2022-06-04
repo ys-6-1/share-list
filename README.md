@@ -10,7 +10,7 @@ ShareList is a checklist sharing application. It allows users to make checklists
 
 ## Using the Application
 
-To use the application online, please visit the deployed app at: [https://share-list-prod.herokuapp.com/](https://share-list-prod.herokuapp.com/)
+To use the application online, please visit the deployed app at: [https://share-list-app.herokuapp.com](https://share-list-app.herokuapp.com)
 
 ### Run it in the development mode
 
