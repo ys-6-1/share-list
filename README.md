@@ -1,18 +1,40 @@
 # ShareList
 
 Welcome to ShareList!
+![image_1](https://user-images.githubusercontent.com/72680138/179153549-ecfc2653-fcaa-4354-ba6c-d800c21e6c87.png)
 
-## Introduction
+![image_2](https://user-images.githubusercontent.com/72680138/179153613-b17c0a9b-f12d-416b-bcf9-6e9bc9a40174.png)
+
+![image_3](https://user-images.githubusercontent.com/72680138/179153678-ad080efa-3ab5-4ea6-b1e7-30cfd730e14b.png)
+
+![image_4](https://user-images.githubusercontent.com/72680138/179153747-b9676c9a-f5f3-49a1-916b-91d269a2ac05.png)
+
+# Introduction
 
 This application was created during my time as a student at [Code Chrysalis](https://www.codechrysalis.io/ "Code Chrysalis Website").
 
-ShareList is a checklist sharing application. It allows users to make checklists, organize them with folders, and share them with other users who have accounts in the app, by typing in their email address. User authentication is implemented with JWT.
+ShareList is a checklist sharing application. It allows users to make checklists, organize them with folders, and securely share your private folders with designated users who have accounts in the app, by typing in their email address. User authentication is implemented with JWT.
 
-## Using the Application
+## Demo Video
 
-To use the application online, please visit the deployed app at: [https://share-list-app.herokuapp.com](https://share-list-app.herokuapp.com)
+Demo video is available on [YouTube](https://www.youtube.com/watch?v=VSKCjHRJIlI)
 
-### Run it in the development mode
+## Deployed Application
+
+Deployed application is available at: [https://share-list-app.herokuapp.com](https://share-list-app.herokuapp.com)
+
+## Features
+
+- Simple, minimalistic, and easy-to-use UI
+- User registration with JWT
+- User sign-in / sign-out with JWT
+- CRUD features for checklist items and folders
+- Feature to manage checklist by folder
+- Folder sharing with specific users (users can be searched with their email)
+- Feature to choose whether or not to accept shared folders
+- Notification UI displayed when a folder is shared by other user
+
+# Run it in the development mode
 
 To use the application locally, please follow the steps below.
 
@@ -50,14 +72,19 @@ You can run front-end by running:
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Tech Stack
+# Tech Stack
 
-### Back-end:
+## Back-end:
 
-Python3 / Django / Django Rest Framework\
-SQLite3
+Python\
+Django\
+Django Rest Framework\
+SQLite3 / Postgres (for producton)\
+JWT authentication
 
-### Front-end
+## Front-end
 
 React \
-Sass
+Axios \
+Sass \
+Material UI
