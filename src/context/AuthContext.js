@@ -80,7 +80,7 @@ export function AuthProvider({ children }) {
   };
 
   const deleteAccount = async () => {
-    await axiosInstance.delete("/api/delete_account", {
+    await axiosInstance.delete("/api/delete_account/", {
       headers: {
         Authorization: localStorage.getItem("access_token")
           ? `JWT ${String(localStorage.getItem("access_token"))}`
