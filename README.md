@@ -13,7 +13,7 @@ Welcome to ShareList!
 
 This application was created during my time as a student at [Code Chrysalis](https://www.codechrysalis.io/ "Code Chrysalis Website").
 
-ShareList is a checklist sharing application. It allows users to make checklists, organize them with folders, and securely share your private folders with designated users who have accounts in the app, by typing in their email address. User authentication is implemented with JWT.
+ShareList is a checklist sharing application. It allows users to make checklists, organize them with folders, and securely share their private folders with designated users who have accounts in the app. User authentication is implemented with JWT.
 
 ## Demo Video
 
